@@ -1,0 +1,432 @@
+
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.top{
+	background: url("images/100.jpg");
+	background-size: cover;
+	height: 100%; 
+	width: 100%;
+	color: white;
+	display: table;
+	transition: 0.4s;
+}
+.top .noidung{
+	vertical-align: middle; /*o giua bang*/
+	display: table-cell; /*mot phan cua bang*/
+	font-family: 'Dosis', ;
+
+}
+.top .noidung .chunho,.chunho2{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.top .noidung .to{
+	font-size: 54px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+.top .nuttop{
+	font-weight: 100;
+	font-size: 18px;
+	padding: 22px 33px;
+	border: 1px solid white;
+	border-radius: 2px;
+	margin-top:60px;
+    text-transform: uppercase;
+}
+.top .nuttop:hover{
+	background: none;
+}
+
+
+.thongtin li.email {
+    font-size: 10px;
+}
+
+.top .nuttop {
+    font-size: 15px;
+    margin-top: 19px;
+}
+
+.top .noidung .chunho, .chunho2 {
+    font-weight: 100;
+    padding: 0 22px;
+}
+
+.top .noidung .to {
+    font-size: 30px;
+    padding: 0 33px;
+}
+}
+/*Phan giao dien noi dung*/
+
+*{margin: 0; padding: 0;}
+
+/*Het css phan noi dung*/
+/*het css cho giao dien di dong*/
+/*css cho trang contact*/
+
+img.logo{
+	width: 211px;
+	padding: 20px 0px;
+}
+/*cssChoMenuPhai*/
+ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item a.nav-link:hover{
+	color: #1abc9c;
+	background: #80808045;
+}
+ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item.active a.nav-link{
+	color: #1abc9c;
+
+}
+ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item a.nav-link {
+    font-family: 'Dosis', ;
+	color:#a1b1bc;
+	font-size: 16px;
+	padding: 42px 24px;
+	transition: 0.4s;
+}
+.menutren{
+	opacity: 0;
+	animation: dixuong 1s forwards;
+}
+/*Het css cho menuphai*/
+/*Css cho trang contact*/
+.ttlienhe{
+	background: url(images/100.jpg);
+	background-size: cover;
+	height: 600px;
+	font-family: 'Dosis', ;
+	color: white;	
+	transition: 0.4s;
+	animation: hienra 1s forwards;
+}
+.ttlienhe .thongtin{
+	margin-top: 190px;
+	background-color: #435566;
+	border-left: 3px solid #16caaa;
+	padding: 33px 40px;
+	animation-delay: 1s;
+	animation: hienra 1s forwards;
+	opacity: 0;
+	
+}
+.thongtin h1{
+	font-family: 'Dosis', ;
+	font-weight: 600;
+	margin-bottom: 23px;
+
+}
+.thongtin .col-sm-6{
+	font-size: 14px;
+	line-height: 24px;
+
+}
+.thongtin ul{
+	list-style: none;
+}
+.thongtin i{
+	padding-right: 9px;
+
+}
+.thongtin .email{
+	color: #16caaa;
+}
+/*Het Css cho trang contact*/
+/*footer*/
+
+button.form-control.nut1:hover {
+    background: #e6d7d7;
+    color: #1abc9c;
+}
+
+button.form-control.nut1 {
+    width: 20%;
+    background: #1abc9c;
+    color: #d2c3c3;
+    font-weight: 100;
+    border-radius: 0;
+    transition: 0.4s;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+input.form-control.email1::placeholder {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #c3b8b8;
+}
+
+input.form-control.email1 {
+    border-radius: 0px;
+    background: #3c3636;
+    width: 80%;
+    float: left;
+    margin-top: 8px;
+    border: solid 1px gray;
+}
+.email1::placeholder{
+	color: green;
+}
+.duoi {
+    margin-top: 34px;
+}
+
+.duoi ul li:hover a {
+    color: #1abc9c;
+}
+
+.duoi a:hover i.fa.fa {
+    color: wheat;
+}
+
+.duoi a:hover i.fa {
+    color: gray;
+}
+
+.duoi ul li:hover i.fa {
+    color: gray;
+    text-decoration: none;
+}
+
+.duoi a:hover {
+    text-decoration: none;
+}
+
+.duoi ul {
+}
+
+.duoi ul li {
+    border-bottom: solid 1px gray;
+    padding-left: 0px;
+}
+
+.duoi a {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.duoi i.fa.fa-square {
+    color: #1abc9c;
+    font-size: 10px;
+    padding: 17px 11px 17px 0;
+    transform: translateY(-2px);
+}
+
+.cot3_4 .tren a:hover {color: white;text-decoration: none;background: #1abc9c;}
+
+ul {
+    list-style: none;
+}
+
+.duoi {}
+
+.cot3_4 .tren a {
+    display: inline-block;
+    color: gray;
+    border: solid 1px gray;
+    padding: 10px 20px;
+    margin: 8px 6px;
+    transition: 0.4s;
+}
+
+.row.mottinf:hover .anhtinf:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.row.mottinf:hover a.tdtinf {
+    color: white;
+    text-decoration: none;
+}
+
+.anhtinf:after {content: "+";display: block;width: 50px;height: 50px;background: #4fbbd4;font-size: 35px;color: white;text-align: center;line-height: 50px;font-weight: 100;position: absolute;z-index: 1;top: 0;left: 0;opacity: 0;transform: scale(2);transition: 0.4s;}
+
+.row.mottinf:last-child {
+    border-bottom: none;
+}
+
+.row .mottinf .col-sm-9 {
+    padding: 0;
+}
+
+.row.col-sm-9 {}
+
+.cot2_4 p {
+    line-height: 25px;
+}
+
+.cot2_4 .col-sm-3 {
+    padding: 0;
+}
+
+.row.mottinf {
+    padding: 10px 0;
+}
+
+.col-sm-3.cot2_4 {
+}
+
+.row.mottinf {
+    border-bottom: solid 1px gray;
+    margin-left: 2px;
+}
+
+.ngaythang {
+    margin-top: -11px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+a.tdtinf {
+    font-size: 16px;
+    color: #A99090;
+    transition: 0.4s;
+}
+
+.anhtinf img.img-fluid {
+    width: 50px;
+    height: 50px;
+}
+
+.anhtinf {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.tieudetinf {
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+a.xemthem i.fa.fa-angle-right {
+	color: white;
+	background: #1abc9c;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 7px;
+}
+
+a.xemthem:hover {
+    text-decoration: none;
+}
+
+a.xemthem {
+    color: #1abc9c;
+    font-size: 14px;
+}
+footer {
+    background: #1a1c27;
+    padding-top: 89px;
+    font-size: 14px;
+    color: #9a9090;
+    font-family: 'Dosis';
+}
+
+img.logofoot {
+    width: 130px;
+} 
+/*Het footer*/
+/*css phan bottom footer*/
+/* Toi uu cho giao dien di dong*/
+
+img.logo {
+    width: 210px;
+    padding: 20px 0;
+}
+
+.mangxahoi.float-sm-right a:hover {
+    color: #6cb7b3;
+}
+
+.mangxahoi.float-sm-right a {padding: 0 13px;color: white;font-size: 14px;transition: 0.4s;}
+
+.bottomfooter {
+    background: #564d4d;
+    padding: 10px;
+    color: white;
+}
+
+/*het phan bottom footer*/
+/*Phan hieu ung load*/
+@keyframes hienra{
+	from{opacity: 0; transform: translateX(-400px);}
+	to{opacity: 1; transform: translateX(0);}
+}
+@keyframes dixuong{
+	from{opacity: 0; transform: translateY(-200px);}
+	to{opacity: 1; transform: translateY(0);}
+}
+/*het Phan hieu ung load*/
+/*form lien he*/
+.formlienhe{
+	margin-top: 95px;
+
+}
+.formlienhe .otext{
+	background-color: #f5f6f8;
+	font-family: 'Dosis',;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px;
+}
+.formlienhe .nutgui{
+	background-color:  #1abc9c;
+	color: white;
+	padding: 10px 30px;
+	display: inline;
+	width: auto;
+	text-transform: uppercase;
+}
+.formlienhe .c-select{
+	padding: 4px;
+	display: block;
+}
+/*het form lien he*/
+/*giao dien cho di dong*/
+@media (max-width: 576px){
+	*{
+
+	}
+	.ttlienhe .thongtin{
+	margin-top: 152px;
+}
+
+.thongtin h1 {
+    font-size: 30px;
+}
+	ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item a.nav-link:hover{
+	color: #1abc9c;
+}
+ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item.active a.nav-link{
+	color: #1abc9c;
+
+}
+ul.nav.navbar-nav.float-sm-right.text-xs-center.meunuphai li.nav-item a.nav-link {
+    font-family: 'Dosis',;
+    color:#a1b1bc;
+    font-size: 16px;
+    padding: 15px 17px;
+    transition: 0.4s;
+    border-bottom: solid 1px;
+}
+img.logo{
+	width: 142px;
+	padding: 20px 0px;
+	}
+.navbar-brand{
+	text-align: center;
+}
+}
